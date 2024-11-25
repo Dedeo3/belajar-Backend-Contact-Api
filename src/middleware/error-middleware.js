@@ -1,5 +1,4 @@
 import {ResponseEror} from "../error/response-eror.js";
-import {ValidationError} from "joi";
 
 const errorMiddleware = async (err, req, res, next) => {
     if (!err){

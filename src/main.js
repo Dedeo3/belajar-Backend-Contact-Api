@@ -1,4 +1,4 @@
-import {app} from "./app.js";
+import {app} from "./apps/app.js";
 import {logger} from "./apps/logging.js";
 
 app.listen(8080,()=>{
